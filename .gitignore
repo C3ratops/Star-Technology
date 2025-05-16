@@ -2,7 +2,6 @@
 /*
 
 # Add directories with soure code
-!config/
 !defaultconfigs/
 !kubejs/
 !mods/panorama/
@@ -20,23 +19,38 @@
 !panorama.dat
 !README.md
 
-# Specific exclusion
-config/embeddium-fingerprint.json
-config/embeddium-options.json
-config/embeddium++.toml
-config/fml.toml
-config/oculus.properties
-config/emi.css
+# Add configs with soure code
+!config/ae2/common.json
+!config/almostunified/unify.json
+!config/defaultworldtype/client-config.toml
+!config/ftbquests/
+!config/gamestages/known_stages.json
+!config/hammerlib/recipes/modded/hammerlib.json
+!config/hammerlib/tags/modded/hammerlib.json
+!config/jei/blacklist.cfg
+!config/mysticalcustomization/crops/
+!config/skyblockbuilder/templates/default-base.nbt
+!config/skyblockbuilder/templates/default.nbt
+!config/skyblockbuilder/templates/notes_for_NBT.js
+!config/skyblockbuilder/dimensions.json5
+!config/skyblockbuilder/permissions.json5
+!config/skyblockbuilder/spawn.json5
+!config/skyblockbuilder/starter_inventory.json5
+!config/solarflux/panels.cfg
+!config/solarflux/recipes.cfg
+!config/badmobs-common.toml
+!config/bhmenu-common.toml
+!config/craftpresence.json
+!config/create_new_age-common.toml
+!config/createlowheated-common.toml
+!config/exnihilosequentia-common.toml
+!config/expatternprovider-common.toml
+!config/fluxnetworks-common.toml
+!config/gtceu.yaml
+!config/lmft.json
+!config/mysticalagriculture-common.toml
+!config/sgjourney-common.toml
+!config/stellarview-client.toml
+!config/webdisplays_common.toml
 
-config/jei/*
-config/worldedit/
-
-config/badmobs-common.toml
-config/extendedcrafting-common.toml
-config/mysticaladaptations-common.toml
-config/mysticalagradditions-common.toml
-config/mysticalagriculture-common.toml
-config/sgjourney-common.toml
-config/defaultworldtype/client-config.toml
-config/skyblockbuilder/data/dimensions.txt
-config/nuclearcraft/*
+config/packetfixer.properties
