@@ -3,7 +3,6 @@ StartupEvents.registry('block', event => {
 
     // reference casings
     event.create('laser_casing')
-        .displayName('Schrubblaser Beam Concentrator & Emmiter Capable Stellarium Casing')
         .hardness(5)
         .resistance(10)
         .lightLevel(10)
@@ -14,7 +13,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/casings/laser_casing');
 
     event.create('inscribe_casing')
-        .displayName('Keelagraver Manipulator & Acuancentrator Capable Runicalium Casing')
         .hardness(5)
         .resistance(10)
         .lightLevel(10)
@@ -25,7 +23,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/casings/inscribe_casing');
     
     event.create('core_casing')
-        .displayName('Ultra Purpur Powered Core & Draconic Designation Ready Infusion Casing')
         .hardness(5)
         .resistance(10)
         .lightLevel(10)
@@ -37,7 +34,6 @@ StartupEvents.registry('block', event => {
 
     // Extras
     event.create('meshblock')
-        .displayName('Treated Wood Reinforced Mesh')
         .hardness(2)
         .resistance(2)
         .material('wood')
@@ -50,7 +46,6 @@ StartupEvents.registry('block', event => {
 
     // Draco Tier
     event.create('draco_ware_casing')
-        .displayName('§5Draconicware§r Casing')
         .hardness(5)
         .resistance(10)
         .lightLevel(3)
@@ -61,7 +56,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/casings/draco_ware_casing');
 
     event.create('draco_assembly_grating')
-        .displayName('§5Draconic§r-Assembly Grating')
         .hardness(5)
         .resistance(10)
         .lightLevel(1)
@@ -72,7 +66,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/casings/draco_assembly_grating');
 
     event.create('draco_resilient_fusion_glass')
-        .displayName('§5Draco-Breath§r Resilient Fusion Glass')
         .hardness(2)
         .resistance(2)
         .material('glass')
@@ -82,7 +75,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/multiblock/draco_resilient_fusion_glass');
 
     event.create('heart_of_the_flame')
-        .displayName('§6Heart of the Flame')
         .hardness(5)
         .resistance(10)
         .lightLevel(10)
@@ -93,7 +85,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/multiblock/heart_of_the_flame');
 
     event.create('husk_of_the_flame')
-        .displayName('§7Husk of the Flame')
         .hardness(5)
         .resistance(10)
         .lightLevel(2)
@@ -104,7 +95,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/husk_of_the_flame');
 
     event.create('husk_brick')
-        .displayName('§7Husk Brick')
         .hardness(5)
         .resistance(10)
         .soundType('metal')
@@ -114,7 +104,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/husk_brick');
 
     event.create('cryostone')
-        .displayName('Cryostone')
         .hardness(2)
         .resistance(2)
         .material('stone')
@@ -124,7 +113,6 @@ StartupEvents.registry('block', event => {
         .textureAll('kubejs:block/cryostone');
 
     event.create('brimstone')
-        .displayName('Brimstone')
         .hardness(2)
         .resistance(2)
         .material('stone')

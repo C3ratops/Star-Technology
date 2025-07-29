@@ -15,10 +15,9 @@ StartupEvents.registry('block', event => {
 
     }
 
-    const named_casing = (material, emmits_light, display_name) => {
+    const named_casing = (material, emmits_light) => {
 
         event.create(`${material}_casing`)
-            .displayName(display_name)
             .hardness(10)
             .resistance(1)
             .lightLevel((emmits_light) ? 2 : 0)
@@ -31,16 +30,16 @@ StartupEvents.registry('block', event => {
     }
 
     casing('soul_infused', false);
-    named_casing('signalum', true, 'Ultra High Pressure and Temperature Resistant Signalum Casing');
+    named_casing('signalum', true);
     casing('lumium', true);
-    named_casing('enderium', false, 'Thermal Fluctuation Proof Enderium Casing');
-    named_casing('shellite', false, 'Ultra-Resistant Shellite Casing');
-    named_casing('twinite', false, 'Bend-Resistant Twinite Casing');
-    named_casing('dragonsteel', false, 'Unbendable Dragonsteel Casing');
-    named_casing('prismalium', true, 'Transportation Prismalium Casing');
-    named_casing('melodium', true, 'Reinforced Melodium Casing');
-    named_casing('stellarium', true, 'Structurally Integral Stellarium Casing');
-    named_casing('ancient_runicalium', true, 'Infusion Enhanced Ancient Runicalium Casing');
+    named_casing('enderium', false);
+    named_casing('shellite', false);
+    named_casing('twinite', false);
+    named_casing('dragonsteel', false);
+    named_casing('prismalium', true);
+    named_casing('melodium', true);
+    named_casing('stellarium', true);
+    named_casing('ancient_runicalium', true);
 
 
 });
