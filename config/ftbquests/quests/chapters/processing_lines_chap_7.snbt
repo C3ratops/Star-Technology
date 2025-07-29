@@ -245,7 +245,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Enriched &d&oMystical&r Fluids"
+			title: "{ftbquests.chapter.processing_lines_chap_7.quest14.title}"
 			x: -7.5d
 			y: -4.5d
 		}
@@ -788,7 +788,7 @@
 					type: "item"
 				}
 			]
-			title: "Titanium Ingot"
+			title: "{ftbquests.chapter.processing_lines_chap_7.quest50.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -930,7 +930,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "55FB41FCEAAE689F"
-				title: "Nether Drilling"
+				title: "{ftbquests.chapter.processing_lines_chap_7.quest60.task_6195618266903111839.title}"
 				type: "checkmark"
 			}]
 			x: -12.0d
@@ -3436,7 +3436,7 @@
 				item: "gtceu:poly_34_ethylenedioxythiophene_polystyrene_sulfate_bucket"
 				type: "item"
 			}]
-			title: "PEDOT:PSS"
+			title: "{ftbquests.chapter.processing_lines_chap_7.quest227.title}"
 			x: 6.5d
 			y: 10.0d
 		}
@@ -4303,7 +4303,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "1F8B168C07797665"
-				title: "Abyss Harvesting"
+				title: "{ftbquests.chapter.processing_lines_chap_7.quest277.task_2272935227615180389.title}"
 				type: "checkmark"
 			}]
 			x: 16.0d
@@ -5060,5 +5060,5 @@
 			y: 6.5d
 		}
 	]
-	title: "Processing Lines (Chap 7..)"
+	title: "{ftbquests.chapter.processing_lines_chap_7.title}"
 }

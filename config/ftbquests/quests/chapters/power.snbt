@@ -162,7 +162,7 @@
 			icon: "systeams:steam_dynamo"
 			id: "67452BE135FAD1C3"
 			shape: "square"
-			subtitle: "Generates twice as much as dynamos"
+			subtitle: "{ftbquests.chapter.power.quest12.subtitle}"
 			tasks: [
 				{
 					id: "7C19C4AB7C36C6FD"
@@ -175,16 +175,16 @@
 					type: "item"
 				}
 			]
-			title: "Steam Dynamo"
+			title: "{ftbquests.chapter.power.quest12.title}"
 			x: -6.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"Thermal Dynamos are cheaper than GregTech energy generation machines."
-				"Thermal Dynamos can be upgraded."
-				"Depending on the upgrades installed, you can get more power from a fuel than gregtech generators."
-				"Best for early game up to mid game."
+				"{ftbquests.chapter.power.quest13.description1}"
+				"{ftbquests.chapter.power.quest13.description2}"
+				"{ftbquests.chapter.power.quest13.description3}"
+				"{ftbquests.chapter.power.quest13.description4}"
 			]
 			icon: {
 				Count: 1
@@ -196,7 +196,7 @@
 			id: "614071EB90CB89F5"
 			tasks: [{
 				id: "0020A1ED81A0ACE0"
-				title: "Why use Thermal Dynamos?"
+				title: "{ftbquests.chapter.power.quest13.task_9185240708852960.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -204,9 +204,9 @@
 		}
 		{
 			description: [
-				"GregTech generators have more variety."
-				"Higher tier generators can generate much more energy per tick than Thermal Dynamos."
-				"Best for late mid-game and end game."
+				"{ftbquests.chapter.power.quest14.description1}"
+				"{ftbquests.chapter.power.quest14.description2}"
+				"{ftbquests.chapter.power.quest14.description3}"
 			]
 			icon: {
 				Count: 1
@@ -218,7 +218,7 @@
 			id: "7DDFBCDFC3F09A6B"
 			tasks: [{
 				id: "2739B3C9FA296C7F"
-				title: "Why use GregTech energy generators?"
+				title: "{ftbquests.chapter.power.quest14.task_2826487921218514047.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -1539,7 +1539,7 @@
 				"1DBE1786C8F14A9E"
 				"4F2692F874F68EF8"
 			]
-			description: ["Diatrons are the best lapidary dynamo fuel. Even the lowest tier of diatrons has energy-positive prodution!"]
+			description: ["{ftbquests.chapter.power.quest88.description1}"]
 			id: "5DDDD7D45FF6A06D"
 			tasks: [
 				{
@@ -1558,7 +1558,7 @@
 					type: "item"
 				}
 			]
-			title: "Diatrons"
+			title: "{ftbquests.chapter.power.quest88.title}"
 			x: -1.5d
 			y: 5.0d
 		}
@@ -1567,7 +1567,7 @@
 				"72DDEB53C9BDDBFC"
 				"007D5B58CBF1BBE2"
 			]
-			description: ["The last 2 Solar Panels are merely compressed variants of the previous ones, to allow for more compact solar setups"]
+			description: ["{ftbquests.chapter.power.quest89.description1}"]
 			id: "2D9EFD27A3C32062"
 			tasks: [{
 				id: "4C72E978BB38D646"
@@ -1675,9 +1675,9 @@
 		{
 			dependencies: ["7DDFBCDFC3F09A6B"]
 			description: [
-				"Each tier of rotor holder up on top of its inherent &b10% efficiency bonus&r &7([1-.1] or .9 or 90% fuel consumption)&r, each tier up doubles consumption and power giving you a &62x energy&r output for 1.8x more fuel. It is always worth it if you can supply enough fuel."
+				"{ftbquests.chapter.power.quest94.description1}"
 				""
-				"In other words it doubles parallels and give efficiency."
+				"{ftbquests.chapter.power.quest94.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1689,7 +1689,7 @@
 			id: "344260A6F9D36843"
 			tasks: [{
 				id: "04DD118048A34595"
-				title: "Rotor Holder OCs"
+				title: "{ftbquests.chapter.power.quest94.task_350455588676912533.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -1804,7 +1804,7 @@
 		}
 		{
 			dependencies: ["16E96E304325E38C"]
-			description: ["Early power tranfer over long distances but can be limited."]
+			description: ["{ftbquests.chapter.power.quest98.description1}"]
 			id: "45D1535F842964DA"
 			tasks: [
 				{
@@ -1978,7 +1978,7 @@
 			id: "1B32FFCDA1C87B90"
 			tasks: [{
 				id: "1A1E0BA9021B4EBF"
-				title: "LV Power"
+				title: "{ftbquests.chapter.power.quest109.task_1881954514800168639.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -1991,7 +1991,7 @@
 			id: "7AAF2D8BC72919DB"
 			tasks: [{
 				id: "06A3B205812C9136"
-				title: "MV Power"
+				title: "{ftbquests.chapter.power.quest110.task_478421722143166774.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2004,7 +2004,7 @@
 			id: "4F2692F874F68EF8"
 			tasks: [{
 				id: "3CE8700342934626"
-				title: "HV Power"
+				title: "{ftbquests.chapter.power.quest111.task_4388880996176709158.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2017,7 +2017,7 @@
 			id: "121EFB24BE239D59"
 			tasks: [{
 				id: "7C32E6DD5B0172DE"
-				title: "EV Power"
+				title: "{ftbquests.chapter.power.quest112.task_8949469247927579358.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2030,7 +2030,7 @@
 			id: "51F889E1432E4DAD"
 			tasks: [{
 				id: "6D68F14C4CE64B1B"
-				title: "IV Power"
+				title: "{ftbquests.chapter.power.quest113.task_7883816457722022683.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2043,7 +2043,7 @@
 			id: "0055CE82469F239C"
 			tasks: [{
 				id: "2F6EF045C5556BE5"
-				title: "LuV Power"
+				title: "{ftbquests.chapter.power.quest114.task_3417933349674904549.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2056,7 +2056,7 @@
 			id: "5D107FD21879F54B"
 			tasks: [{
 				id: "52FC6219EA1AA5C6"
-				title: "ZPM Power"
+				title: "{ftbquests.chapter.power.quest115.task_5979762268682495430.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2069,7 +2069,7 @@
 			id: "007D5B58CBF1BBE2"
 			tasks: [{
 				id: "48767E7FA86DF600"
-				title: "UV Power"
+				title: "{ftbquests.chapter.power.quest116.task_5221499904734393856.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2083,7 +2083,7 @@
 			id: "21B905AA3AE6059F"
 			tasks: [{
 				id: "3739C0B4B9C3525F"
-				title: "UHV Power"
+				title: "{ftbquests.chapter.power.quest117.task_3979423628201775711.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2096,7 +2096,7 @@
 			id: "3F34F4AC99C45E6F"
 			tasks: [{
 				id: "5C887C50FEA79C1D"
-				title: "UEV Power"
+				title: "{ftbquests.chapter.power.quest118.task_6667715935633644573.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2109,7 +2109,7 @@
 			id: "6FB365E6C91B482E"
 			tasks: [{
 				id: "34900E6146D45F27"
-				title: "UIV Power"
+				title: "{ftbquests.chapter.power.quest119.task_3787543097581526823.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2118,12 +2118,12 @@
 		{
 			dependencies: ["6FB365E6C91B482E"]
 			description: [
-				"&l&4I said not to worry about it.&r"
+				"{ftbquests.chapter.power.quest120.description1}"
 				""
-				"- &oKindest Regards,"
-				"   &o&3&mThe Remover of Spines"
+				"{ftbquests.chapter.power.quest120.description2}"
+				"{ftbquests.chapter.power.quest120.description3}"
 				""
-				"{image:komarumod:textures/painting/komaru_god.png width:100 height:100 align:center}"
+				"{ftbquests.chapter.power.quest120.image0}"
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -2136,7 +2136,7 @@
 			id: "611614FF7006D32B"
 			tasks: [{
 				id: "3546E07C5D849D76"
-				title: "Dont Worry About It"
+				title: "{ftbquests.chapter.power.quest120.task_3839002557129465206.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2198,7 +2198,7 @@
 			id: "2490AD30E2772475"
 			tasks: [{
 				id: "77E920F0529FA4BD"
-				title: "Power throughout the tiers"
+				title: "{ftbquests.chapter.power.quest125.task_8640473576637441213.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2209,7 +2209,7 @@
 				"7DDFBCDFC3F09A6B"
 				"121EFB24BE239D59"
 			]
-			description: ["Parallels can make it scale just a \"little\"."]
+			description: ["{ftbquests.chapter.power.quest126.description1}"]
 			id: "29A144BD0E7C524F"
 			tasks: [{
 				id: "0D35589F9644A1F9"
@@ -2321,7 +2321,7 @@
 			y: -7.0d
 		}
 		{
-			description: ["While expensive to make and not your best source it is free energy from the &e&lSUN&r."]
+			description: ["{ftbquests.chapter.power.quest134.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2332,12 +2332,12 @@
 			id: "51639FA6915BC51A"
 			tasks: [{
 				id: "2880D8142FDC174B"
-				title: "What is Solar?"
+				title: "{ftbquests.chapter.power.quest134.task_2918570139749979979.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
 			y: -7.0d
 		}
 	]
-	title: "Power"
+	title: "{ftbquests.chapter.power.title}"
 }
