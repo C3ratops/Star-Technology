@@ -112,7 +112,6 @@ StartupEvents.registry('item', event => {
 
 StartupEvents.registry('block', event => {
 	event.create('reinforced_stone_bricks')
-		.displayName('Reinforced Stone Bricks')
 		.hardness(5)
 		.resistance(1)
 		.soundType('stone')
@@ -139,7 +138,6 @@ StartupEvents.registry('block', event => {
 		const { id, name } = crucible
 
 		event.create(id)
-			.displayName(name)
 			.hardness(1)
 			.resistance(2)
 			.requiresTool(true)
@@ -151,7 +149,6 @@ StartupEvents.registry('block', event => {
 		const { id, name } = table
 
 		event.create(id)
-			.displayName(name)
 			.hardness(1)
 			.resistance(2)
 			.requiresTool(true)
@@ -160,7 +157,6 @@ StartupEvents.registry('block', event => {
 	});
 
 	event.create('high_steam_machine_casing')
-		.displayName('Sturdy Steam Machine Casing')
 		.hardness(5)
 		.resistance(1)
 		.soundType('stone')
@@ -170,7 +166,6 @@ StartupEvents.registry('block', event => {
 		.textureAll('kubejs:block/hm/high_steam_machine_casing');
 
 	event.create('refined_sand', 'falling')
-		.displayName('Refined Sand')
 		.hardness(1)
 		.resistance(1)
 		.soundType('sand')
@@ -179,7 +174,6 @@ StartupEvents.registry('block', event => {
 		.textureAll('kubejs:block/hm/refined_sand');
 
 	event.create('refined_dust', 'falling')
-		.displayName('Refined Dust')
 		.hardness(1)
 		.resistance(1)
 		.soundType('sand')
