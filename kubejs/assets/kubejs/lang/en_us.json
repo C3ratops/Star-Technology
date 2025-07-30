@@ -75,7 +75,6 @@
     "block.kubejs.refined_sand": "Refined Sand",
     "block.kubejs.refined_dust": "Refined Dust",
 
-
     "block.kubejs.crucible_stage_1": "Slightly Hollowed Log",
     "block.kubejs.crucible_stage_2": "Fairly Hollowed Log",
     "block.kubejs.crucible_stage_3": "Mostly Hollowed Log",
@@ -521,5 +520,10 @@
     "item.kubejs.singularity_astral": "Astral Singularity",
     "item.kubejs.singularity_astral.tooltip.1": "§3§lIntangibility:§r 5",
     "item.kubejs.singularity_astral.tooltip.2": "§5§lParadoxicity:§r 9",
-    "item.kubejs.singularity_astral.tooltip.3": "§6§lCausality:§r 1"
+    "item.kubejs.singularity_astral.tooltip.3": "§6§lCausality:§r 1",
+
+    "effect.kubejs.sand_erosion": "Sand Erosion",
+    "effect.kubejs.radiation_poisoning": "Radiation Poisoning",
+    "effect.kubejs.toxic_atmosphere": "Toxic Atmosphere",
+    "effect.kubejs.abyssal_drain": "Abyssal Drain"
 }
