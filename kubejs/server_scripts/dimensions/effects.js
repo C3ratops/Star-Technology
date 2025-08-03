@@ -10,7 +10,7 @@ PlayerEvents.tick(event => {
 
         if (player.age % 40 === 0) {
             effects.forEach(effect => {
-                player.potionEffects.add(effect, 60, 1, false, false)
+                player.potionEffects.add(effect, 60, 1, false, false);
             })
         }
 
@@ -18,13 +18,9 @@ PlayerEvents.tick(event => {
             player.potionEffects.add('minecraft:hunger', 100, 2, false, false)
             event.server.runCommandSilent(`execute as ${event.player.username} run damage ${event.player.username} 2 kubejs:heat_exhaustion`);
         }
-
-        if (global.packmode !== 'abydos'){
-            (() => {        
-                if (player.age % 200 === 0) {// Hardcoded lang
-                    player.tell(Text.of('§eThe sands of Abydos are eroding you...').red())
-                }
-            })()
+      
+        if (player.age % 200 === 0) {
+            player.tell(Text.translate('effects.sand_erosion.message'));
         }
 
     }
@@ -38,7 +34,7 @@ PlayerEvents.tick(event => {
 
         if (player.age % 40 === 0) {
             effects.forEach(effect => {
-                player.potionEffects.add(effect, 60, 1, false, false)
+                player.potionEffects.add(effect, 60, 1, false, false);
             })
         }
         
@@ -50,8 +46,8 @@ PlayerEvents.tick(event => {
             event.server.runCommandSilent(`execute as ${event.player.username} run damage ${event.player.username} 4 kubejs:radiation`);
         }
         
-        if (player.age % 200 === 0) {// Hardcoded lang
-            player.tell(Text.of('§cYou feel sick from radiation...').red())
+        if (player.age % 200 === 0) {
+            player.tell(Text.translate('effects.radiation.message'));
         }
     }
     
@@ -61,7 +57,7 @@ PlayerEvents.tick(event => {
 
         if (player.age % 40 === 0) {
             effects.forEach(effect => {
-                player.potionEffects.add(effect, 60, 1, false, false)
+                player.potionEffects.add(effect, 60, 1, false, false);
             })
         }
     }
@@ -72,7 +68,7 @@ PlayerEvents.tick(event => {
 
         if (player.age % 40 === 0) {
             effects.forEach(effect => {
-                player.potionEffects.add(effect, 60, 1, false, false)
+                player.potionEffects.add(effect, 60, 1, false, false);
             })
             
             if (Math.random() > 0.95) {
