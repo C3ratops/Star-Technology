@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
     CrystalDuping('end',1);
 
 });
-
+// Hardcoded lang
 const crystalfeed = (realmId, realm, stage, message) => {
     ItemEvents.rightClicked(`kubejs:${realm}_coordinate_crystal`, event => {
         if (event.player.isCrouching()) {

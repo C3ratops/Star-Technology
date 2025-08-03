@@ -371,7 +371,7 @@ ServerEvents.recipes(event => {
 
     assemblerfluid_rem('pattern_terminal_upgrade','expatternprovider:pattern_terminal_upgrade',['4x gtceu:double_certus_quartz_skystone_alloy_plate','4x ae2:engineering_processor','#gtceu:circuits/ev'],'fluix_steel 576',2048);
     assemblerfluid_rem('io_bus_upgrade','expatternprovider:io_bus_upgrade',['4x ae2:calculation_processor','#gtceu:circuits/ev','4x gtceu:diamond_skystone_alloy_plate','4x gtceu:gold_skystone_alloy_plate'],'sky_steel 576',2048);
-    assemblerfluid_rem('drive_upgrade','expatternprovider:drive_upgrade',['4x ae2:calculation_processor','#gtceu:circuits/ev','8x gtceu:diamond_skystone_alloy_plate'],'sky_steel 576',2048);
+    assemblerfluid_rem('drive_upgrade','expatternprovider:drive_upgrade',['4x ae2:calculation_processor','#gtceu:circuits/ev','8x gtceu:diamond_skystone_alloy_plate'],'fluix_steel 576',2048);
     
     assemblerfluid_rem('interface_upgrade','expatternprovider:interface_upgrade',['8x ae2:calculation_processor','#gtceu:circuits/hv','#gtceu:circuits/ev','8x gtceu:diamond_skystone_alloy_plate','4x gtceu:double_certus_quartz_skystone_alloy_plate'],'sky_steel 1152',2048);
     assemblerfluid_rem('pattern_provider_upgrade','expatternprovider:pattern_provider_upgrade',['8x ae2:calculation_processor','#gtceu:circuits/hv','#gtceu:circuits/ev','8x gtceu:diamond_skystone_alloy_plate','4x gtceu:double_gold_skystone_alloy_plate'],'sky_steel 1152',2048);
